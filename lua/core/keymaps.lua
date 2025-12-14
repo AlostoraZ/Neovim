@@ -203,9 +203,9 @@ map("n", "[c", function()
     return "<Ignore>"
 end, { desc = "Prev hunk", expr = true })
 
-map("n", "<leader>rh", function() require("gitsigns").reset_hunk() end, { desc = "Reset hunk" })
-map("n", "<leader>ph", function() require("gitsigns").preview_hunk() end, { desc = "Preview hunk" })
-map("n", "<leader>lb", function() package.loaded.gitsigns.blame_line() end, { desc = "Blame line" })
+-- map("n", "<leader>rh", function() require("gitsigns").reset_hunk() end, { desc = "Reset hunk" })
+-- map("n", "<leader>ph", function() require("gitsigns").preview_hunk() end, { desc = "Preview hunk" })
+-- map("n", "<leader>lb", function() package.loaded.gitsigns.blame_line() end, { desc = "Blame line" })
 map("n", "<leader>td", function() require("gitsigns").toggle_deleted() end, { desc = "Toggle deleted" })
 
 -- ===========================

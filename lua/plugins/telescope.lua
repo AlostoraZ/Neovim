@@ -21,7 +21,7 @@ return {
 
                     light_themes = {
                         ignore = true,
-                        keywords = { "light", "day", "frappe", "dawn" }
+                        keywords = { "light", "day", "latte", "dawn" }
                     },
 
                     -- that you want to apply on this picker only

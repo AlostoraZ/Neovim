@@ -67,7 +67,7 @@ return {
         { "<leader>sj", function() Snacks.picker.jumps() end,                                   desc = "Jumps" },
         { "<leader>sk", function() Snacks.picker.keymaps() end,                                 desc = "Keymaps" },
         { "<leader>sl", function() Snacks.picker.loclist() end,                                 desc = "Location List" },
-        { "<leader>sm", function() Snacks.picker.marks() end,                                   desc = "Marks" },
+        -- { "<leader>sm", function() Snacks.picker.marks() end,                                   desc = "Marks" },
         { "<leader>sM", function() Snacks.picker.man() end,                                     desc = "Man Pages" },
         { "<leader>sq", function() Snacks.picker.qflist() end,                                  desc = "Quickfix List" },
         { "<leader>sR", function() Snacks.picker.resume() end,                                  desc = "Resume" },

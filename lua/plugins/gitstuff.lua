@@ -69,6 +69,7 @@ return {
 
                     -- Actions
                     map('n', '<leader>hs', gitsigns.stage_hunk, { desc = "Stage hunk" })
+                    map('n', '<leader>hu', gitsigns.undo_stage_hunk, { desc = "Undo stage hunk" })
                     map('n', '<leader>hr', gitsigns.reset_hunk, { desc = "Reset hunk" })
 
                     map('v', '<leader>hs', function()

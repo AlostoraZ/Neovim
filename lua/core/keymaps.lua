@@ -161,6 +161,7 @@ map("x", "p", 'p:let @+=@0<CR>:let @"=@0<CR>', { desc = "Don’t copy replaced t
 map("n", "<C-n>", "<cmd>NvimTreeToggle<CR>", { desc = "Toggle NvimTree" })
 map("n", "<leader>ee", "<cmd>NvimTreeToggle<CR>", { desc = "Toggle NvimTree" })
 map("n", "<leader>ef", "<cmd>NvimTreeFocus<CR>", { desc = "Focus NvimTree" })
+map("n", "<leader>ec", "<cmd>NvimTreeFindFile<CR>", { desc = "Find File NvimTree" })
 
 -- ===========================
 -- TELESCOPE

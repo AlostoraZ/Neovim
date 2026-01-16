@@ -1,4 +1,6 @@
 vim.cmd("let g:nterw_banner = 0")
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
 
 vim.opt.guicursor = "n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20"
 vim.opt.nu = true
@@ -13,7 +15,7 @@ vim.opt.smartindent = true
 vim.opt.wrap = false
 vim.opt.autoread = true
 
-vim.opt.swapfile = fasle
+vim.opt.swapfile = false
 vim.opt.backup = false
 vim.opt.undofile = true
 
@@ -41,3 +43,10 @@ vim.opt.hlsearch = true
 
 vim.opt.mouse = "a"
 vim.g.editorconfig = true
+
+vim.cmd([[
+    :hi      NvimTreeExecFile    guifg=#ffa0a0
+    :hi      NvimTreeSpecialFile guifg=#ff80ff gui=underline
+    :hi      NvimTreeSymlink     guifg=Yellow  gui=italic
+    :hi link NvimTreeImageFile   Title
+]])
